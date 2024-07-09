@@ -36,7 +36,7 @@ console.log(typeof(false))
 // 2. let
 // 3. const
 
-// varibletype variblename = value ;
+// varibletype variblename = value/data ;
 
 
 
@@ -121,9 +121,9 @@ console.log(number)
 
 
 //       reassign   redeclare       scope           hoisting
-// var     ✅          ✅       global scope
-// let     ✅          ❌       block scope
-// const   ❌          ❌       block scope
+// var     ✅          ✅       global scope          ✅
+// let     ✅          ❌       block scope           ❌
+// const   ❌          ❌       block scope           ❌
 //
 
 // {} -> block / box
