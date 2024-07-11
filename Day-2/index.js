@@ -1,13 +1,3 @@
-// Datatype
-// String
-// number
-// boolean
-// undefined
-// varible
-// var
-// let
-// const
-// Hoisting
 
 
 
