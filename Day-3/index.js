@@ -8,10 +8,13 @@
 // let
 // const
 // Hoisting
-//Comparision operators
+// Comparision operators
 // Conditional Statement
 // if else
 // switch
+// logical operators
+// && ||
+ 
 
 // eg. Driving license
 
