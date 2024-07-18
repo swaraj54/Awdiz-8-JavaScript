@@ -3,28 +3,28 @@
 // Print number from 1 - 100, 1, 3, 5, 7, 9
 // Print numbers from 50 -150, 50, 60, 70, 80, ... 150
 
-// function questionOne(starting, ending) {
-//   for (var i = starting; i <= ending; i++) {
-//     console.log(i);
-//   }
-// }
-// questionOne(20, 40);
+function questionOne(starting, ending) {
+  for (var i = starting; i <= ending; i++) {
+    console.log(i);
+  }
+}
+questionOne(20, 40);
 
-// function questionSecond(starting, ending, sequence) {
-//   for (var i = starting; i <= ending; i += sequence) {
-//     console.log(i);
-//   }
-// }
+function questionSecond(starting, ending, sequence) {
+  for (var i = starting; i <= ending; i += sequence) {
+    console.log(i);
+  }
+}
 
-// questionSecond(1, 100, 2);
+questionSecond(1, 100, 2);
 
-// function questionThird(starting, ending) {
-//   for (var i = starting; i <= ending; i += 10) {
-//     console.log(i);
-//   }
-// }
+function questionThird(starting, ending) {
+  for (var i = starting; i <= ending; i += 10) {
+    console.log(i);
+  }
+}
 
-// questionThird(50, 150);
+questionThird(50, 150);
 
 // for(var i = 1 ; i <= 10; i++){
 //     console.log(i)
@@ -40,13 +40,13 @@
 
 // Q Print numbers from 40 - 20 and with sequence for 3 .
 
-// function questionFourth(starting, ending, sequence) {
-//   for (var i = starting; i >= ending; i -= sequence) {
-//     console.log(i);
-//   }
-// }
+function questionFourth(starting, ending, sequence) {
+  for (var i = starting; i >= ending; i -= sequence) {
+    console.log(i);
+  }
+}
 
-// questionFourth(40, 20, 3);
+questionFourth(40, 20, 3);
 
 // Q print numbers from 40 - 0 and who are odd .
 
