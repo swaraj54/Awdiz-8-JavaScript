@@ -87,8 +87,8 @@ isPalindrome("roataor");
 
 
 
-var name = "rotor";
-console.log(name.length -1 ); // its calculates letter from 1 .
+var name = "rotort";
+console.log(name.length  ); // its calculates letter from 1 .
 console.log(name[9]) // its calculates letter from 0.
 console.log(name[name.length - 1]);
 console.log(Math.floor(name.length / 2));
@@ -101,5 +101,5 @@ console.log(Math.floor(name.length / 2));
 
 
 var number =  536.3242;
-console.log(Math.floor(number))
-console.log(Math.ceil(number))
+console.log(Math.floor(number)) // 536
+console.log(Math.ceil(number)) // 537
