@@ -99,7 +99,7 @@ console.log(output)
 
 
 
-
+// Use driving license function here... use numbers as age
 const students = ["virat","rahul","rohit","ali"]
 students.forEach((student)=> console.log(student) )
 
@@ -111,7 +111,7 @@ students.forEach((student)=> console.log(student) )
 
 const students = ["virat","rahul","rohit","ali", 2]
 const output  = students.includes(2);
-console.log(output)
+console.log(output) // true / false 
 
 
 
@@ -125,3 +125,5 @@ console.log(output)
 
 const students = ["virat","rahul","rohit","ali", 2]
 console.log(students.indexOf("rishabh"))
+
+// indec or -1 
