@@ -77,6 +77,7 @@ const myObject = {
   name: "Vinay",
   age: 20,
   allTestMarks: [90, 91, 92, 30, 50, "Hii"],
+
 };
 
 myObject.surname = "Abc";
@@ -155,7 +156,7 @@ console.log(Object.values(myObject));
 
 
 
-// Q Given an string find out numbers of repetation for single lette.
+// Q Given an string find out numbers of repetation for single letter.
 
 // v : 1
 // i : 1
