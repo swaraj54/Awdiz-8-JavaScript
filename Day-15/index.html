@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .start {
+        color: green;
+      }
+      .end {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 id="myText" class="start">Welcome everyone</h1>
+      <button onclick="Start()">Start</button>
+      <button onclick="End()">End</button>
+      <button onclick="StoreData()">Store data</button>
+      <button onclick="RetriveData()">Retrive data</button>
+      <button onclick="DeleteData()">Delete data</button>
+    </div>
+
+    <script>
+      var intervalId;
+      function Start() {
+        // alert("Start");
+        if (!intervalId) {
+          intervalId = setInterval(changeColor, 2000);
+        }
+      }
+
+      function changeColor() {
+        // console.log(document.getElementById("myText"));
+
+        const myElement = document.getElementById("myText");
+        // console.log(myElement.className);
+        myElement.className = myElement.className === "start" ? "end" : "start";
+      }
+
+      function End() {
+        // alert("End");
+        // console.log(intervalId, "intervalId");
+        clearInterval(intervalId);
+        console.log(intervalId, "intervalId");
+        intervalId = null;
+      }
+
+      function StoreData() {g
+        localStorage.setItem("mydata", JSON.stringify(data));
+      }
+
+      function RetriveData() {
+        console.log(JSON.parse(localStorage.getItem("mydata")));
+      }
+
+      function DeleteData() {
+        localStorage.removeItem("mydata");
+      }
+    </script>
+  </body>
+</html>

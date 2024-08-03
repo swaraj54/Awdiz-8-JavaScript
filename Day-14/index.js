@@ -57,9 +57,9 @@
 //   console.log("hello 2");
 // }, 2000);
 
-// setInterval(() => {
-//   console.log("Hello");
-// }, 2000);
+setInterval(() => {
+  console.log("Hello");
+}, 2000);
 
 
 
